@@ -1,7 +1,12 @@
+# -*- encoding: utf-8 -*-
+$:.push File.expand_path("../lib", __FILE__)
+require "surb/version"
+
 Gem::Specification.new do |s|
   s.name = 'surb'
-  s.version = '0.1.0'
+  s.version = Surb::VERSION
   s.summary = 'Set of useful scripts for rails application development'
+  s.description = ''
   s.homepage = 'https://github.com/mainameiz/surb'
   s.authors = ["Nikolay Markov"]
   s.email   = ["mainameiz@gmail.com"]
