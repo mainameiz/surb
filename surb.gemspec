@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.email   = ["mainameiz@gmail.com"]
   s.files = `git ls-files`.split("\n")
 
+  s.add_dependency('haml', '~> 3.1.4')
   s.add_dependency('hpricot', '~> 0.8.6')
   s.add_dependency('ruby_parser', '~> 2.3.1')
 end
