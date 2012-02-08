@@ -22,10 +22,9 @@ namespace :views do
     def remove_files(format, path)
       path = "app/views" || args[:path]
       Dir["#{path}/**/*.#{format}"].each do |file|
-        puts "Removing #{file}..."
         `rm #{file}`
-        puts 'Done'
       end
+      puts 'Done'
     end
   end
 end

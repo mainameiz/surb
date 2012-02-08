@@ -1,6 +1,6 @@
 == Surb
 
-This gem contains useful set of rake tasks, rails generators, scripts and so on for easy application development with RubyOnRails
+This gem contains useful set of rake tasks, rails generators, scripts and so on for my needs
 
 == Usage
 
